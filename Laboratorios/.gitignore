@@ -1,0 +1,6 @@
+build/
+dist/
+nbproject/private/
+nbproject/configurations.xml
+*.log
+tmp/
