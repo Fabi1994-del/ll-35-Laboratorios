@@ -42,7 +42,8 @@ public class Lab2 {
             for (int i = 0; i < numeros.length; i++) {
          //validar que  el valor no sea mayor que 50, y si es mayor que 50 lo ponga en -1
             String valor = JOptionPane.showInputDialog("Ingrese el valor del index " + i);
-             int intValor = Integer.parseInt(valor);
+             int intValor = Integer.parseInt(valor); 
+             
             numeros[i] = intValor;
 }
             JOptionPane.showMessageDialog(null,Arrays.toString(numeros));
